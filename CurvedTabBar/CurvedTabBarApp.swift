@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct CurvedTabBarApp: App {
+struct CurvedTabbarApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

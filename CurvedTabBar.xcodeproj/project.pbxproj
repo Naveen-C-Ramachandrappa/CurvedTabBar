@@ -14,6 +14,9 @@
 		493AB0352CC01CFD008ABA00 /* CurvedTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AB0342CC01CFD008ABA00 /* CurvedTabBarTests.swift */; };
 		493AB03F2CC01CFD008ABA00 /* CurvedTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AB03E2CC01CFD008ABA00 /* CurvedTabBarUITests.swift */; };
 		493AB0412CC01CFD008ABA00 /* CurvedTabBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AB0402CC01CFD008ABA00 /* CurvedTabBarUITestsLaunchTests.swift */; };
+		493AB04F2CC01D2A008ABA00 /* AnimatedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AB04E2CC01D2A008ABA00 /* AnimatedShape.swift */; };
+		493AB0512CC01D34008ABA00 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AB0502CC01D34008ABA00 /* Home.swift */; };
+		493AB0532CC01D42008ABA00 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AB0522CC01D42008ABA00 /* TabBarButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		493AB03A2CC01CFD008ABA00 /* CurvedTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurvedTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		493AB03E2CC01CFD008ABA00 /* CurvedTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedTabBarUITests.swift; sourceTree = "<group>"; };
 		493AB0402CC01CFD008ABA00 /* CurvedTabBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedTabBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		493AB04E2CC01D2A008ABA00 /* AnimatedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedShape.swift; sourceTree = "<group>"; };
+		493AB0502CC01D34008ABA00 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		493AB0522CC01D42008ABA00 /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		493AB0222CC01CFC008ABA00 /* CurvedTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				493AB04D2CC01D19008ABA00 /* View */,
 				493AB0232CC01CFC008ABA00 /* CurvedTabBarApp.swift */,
 				493AB0252CC01CFC008ABA00 /* ContentView.swift */,
 				493AB0272CC01CFD008ABA00 /* Assets.xcassets */,
@@ -125,6 +132,16 @@
 				493AB0402CC01CFD008ABA00 /* CurvedTabBarUITestsLaunchTests.swift */,
 			);
 			path = CurvedTabBarUITests;
+			sourceTree = "<group>";
+		};
+		493AB04D2CC01D19008ABA00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				493AB04E2CC01D2A008ABA00 /* AnimatedShape.swift */,
+				493AB0502CC01D34008ABA00 /* Home.swift */,
+				493AB0522CC01D42008ABA00 /* TabBarButton.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +275,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				493AB0262CC01CFC008ABA00 /* ContentView.swift in Sources */,
+				493AB04F2CC01D2A008ABA00 /* AnimatedShape.swift in Sources */,
+				493AB0512CC01D34008ABA00 /* Home.swift in Sources */,
+				493AB0532CC01D42008ABA00 /* TabBarButton.swift in Sources */,
 				493AB0242CC01CFC008ABA00 /* CurvedTabBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
